@@ -40,9 +40,10 @@ def encryption(key, message_provided):
     (you can convert strings to bytes using .encode()).
     The variable encrypted will now have the value of the message encrypted as type bytes. This is also a URL safe base64 encoded key.
     """
-    message = message_provided.encode()
+    if isinstance(message_provided, str):
+        message_provided = message_provided.encode()
     f = Fernet(key)
-    encrypted = f.encrypt(message)  # Encrypt the bytes. The returning object is of type bytes
+    encrypted = f.encrypt(message_provided)  # Encrypt the bytes. The returning object is of type bytes
     return encrypted
 
 def decryption(key, encrypted_message):
@@ -55,7 +56,7 @@ def decryption(key, encrypted_message):
     try:
         f = Fernet(key)
         decrypted = f.decrypt(encrypted_message)  # Decrypt the bytes. The returning object is of type bytes
-        return decrypted.decode()
+        return decrypted
     except InvalidToken as e:
         print("Invalid Key - Unsuccessfully decrypted")
 
@@ -87,5 +88,5 @@ if __name__ == "__main__":
     decrypted = decryption(key, encrypted)
     print(f'Original message: {message}')
     print(f'Encrypted: {encrypted.decode()}')
-    print(f'Decrypted: {decrypted}')
-    assert message == decrypted  # The original message and decrypted message are the same
+    print(f'Decrypted: {decrypted.decode()}')
+    assert message == decrypted.decode()  # The original message and decrypted message are the same
