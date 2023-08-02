@@ -42,3 +42,4 @@ Now that we have a system that ensures the security of the entire chain in place
 
 ## References
 https://www.activestate.com/blog/how-to-build-a-blockchain-in-python/
+https://www.geeksforgeeks.org/create-simple-blockchain-using-python/?ref=lbp
