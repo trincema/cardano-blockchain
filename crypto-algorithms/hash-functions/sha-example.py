@@ -1,6 +1,12 @@
 # Python 3 code to demonstrate
 # SHA hash algorithms.
 
+"""
+SHA, ( Secure Hash Algorithms ) are set of cryptographic hash functions defined by the language to be used
+for various applications such as password security etc. Some variants of it are supported by Python in the
+“hashlib” library. These can be found using “algorithms_guaranteed” function of hashlib.
+"""
+
 import hashlib
 import sys
 
