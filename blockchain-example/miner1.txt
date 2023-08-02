@@ -1,0 +1,7 @@
+{"index":2,"message":"A block is MINED","previous_hash":"f8d539bae98473073ae79a5a7a9cc979799a03238601cbd8657852e5a5659d34","proof":632238,"timestamp":"2023-08-02 23:21:52.737350"}
+{"index":3,"message":"A block is MINED","previous_hash":"3d1df94d23fe026a877b394fae213918ef3353fe0b0977a0406d72920f476dd9","proof":403091,"timestamp":"2023-08-02 23:22:13.220533"}
+{"index":4,"message":"A block is MINED","previous_hash":"8a5f42043f03c7e4d7017231a61150576135dab34c4dad4cae23a553a0a5c6ac","proof":714736,"timestamp":"2023-08-02 23:22:33.961019"}
+{"index":5,"message":"A block is MINED","previous_hash":"984cda92de156d5692a590037e75902d292314b261433a4cc2c10c057975d09d","proof":476581,"timestamp":"2023-08-02 23:22:56.509471"}
+{"index":6,"message":"A block is MINED","previous_hash":"c518240c35403d381dcd36be170ed88ef80f5dcfbd790fab07d2085f04853af1","proof":431630,"timestamp":"2023-08-02 23:23:17.097997"}
+{"index":7,"message":"A block is MINED","previous_hash":"361d699e512816fe8133e4ab19ded136f2a6f64f09858fc437d716bee720538b","proof":1108970,"timestamp":"2023-08-02 23:23:38.163139"}
+{"index":8,"message":"A block is MINED","previous_hash":"951064c43499d6f3ea9c73040b24a732dc46167b7138530a12a1f16234ef775d","proof":405575,"timestamp":"2023-08-02 23:23:58.612644"}
