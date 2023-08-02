@@ -6,7 +6,7 @@ import sys
 
 # Redirect all print() output to a text file
 orig_stdout = sys.stdout
-f = open('rsa-example-out.txt', 'w')
+f = open('sha-example-out.txt', 'w')
 sys.stdout = f
 
 # prints all available algorithms
