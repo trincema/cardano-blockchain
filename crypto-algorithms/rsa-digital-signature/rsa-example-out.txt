@@ -1,0 +1,26 @@
+The available algorithms are : {'sha3_512', 'blake2s', 'sha224', 'sha256', 'sha384', 'sha1', 'blake2b', 'sha3_224', 'sha3_384', 'sha3_256', 'shake_128', 'shake_256', 'sha512', 'md5'}
+
+The hexadecimal equivalent of SHA256 is : 
+f1df4a6d8659471333f7f6470d593e0911b4d487856d88c83d2d187afa195927
+b"\xf1\xdfJm\x86YG\x133\xf7\xf6G\rY>\t\x11\xb4\xd4\x87\x85m\x88\xc8=-\x18z\xfa\x19Y'"
+32
+
+The hexadecimal equivalent of SHA384 is : 
+0aaf3965f2f9a8700f7e1ef80cc2b58a89f5237656d2b22d953e5836fcd5038597778419af3628ea70ed25c2baee446d
+b'\n\xaf9e\xf2\xf9\xa8p\x0f~\x1e\xf8\x0c\xc2\xb5\x8a\x89\xf5#vV\xd2\xb2-\x95>X6\xfc\xd5\x03\x85\x97w\x84\x19\xaf6(\xeap\xed%\xc2\xba\xeeDm'
+48
+
+The hexadecimal equivalent of SHA224 is : 
+cff49cb58680eb28ff43bb5673eed2ef344558eb4052a9e8a925a841
+b'\xcf\xf4\x9c\xb5\x86\x80\xeb(\xffC\xbbVs\xee\xd2\xef4EX\xeb@R\xa9\xe8\xa9%\xa8A'
+28
+
+The hexadecimal equivalent of SHA512 is : 
+3b20c1f6b69e9087e8df6ca856c43f752ba005e29d8fe0de2c20f12d456cfaf63dc4717a7c3e9c5da7166dcf2e932f62a47f113325553a0908883c190859b0c3
+b'; \xc1\xf6\xb6\x9e\x90\x87\xe8\xdfl\xa8V\xc4?u+\xa0\x05\xe2\x9d\x8f\xe0\xde, \xf1-El\xfa\xf6=\xc4qz|>\x9c]\xa7\x16m\xcf.\x93/b\xa4\x7f\x113%U:\t\x08\x88<\x19\x08Y\xb0\xc3'
+64
+
+The hexadecimal equivalent of SHA1 is : 
+0195580447ce25847a2954422de4b5f7d01bc143
+b'\x01\x95X\x04G\xce%\x84z)TB-\xe4\xb5\xf7\xd0\x1b\xc1C'
+20
