@@ -68,7 +68,8 @@ def encryption(message, public_key):
     """
     Encrypt the given message using the given public_key.
     """
-    message = message.encode()
+    if isinstance(message, str):
+        message = message.encode()
     encrypted = public_key.encrypt(
         message,
         padding.OAEP(
